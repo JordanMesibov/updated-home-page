@@ -1,0 +1,42 @@
+body {
+
+background-image: url("../assets/images/art-astronomy-atmosphere-1693095.jpg");
+
+}
+
+.main-row {
+    background-color: rgb(119, 36, 129);
+    min-height: 70vh;
+    max-width: 75vw;
+    margin: 0 50px;
+    opacity: 0.9;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 5px;
+}
+
+.content {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+a {
+    color: white;
+    background-color: rgb(120, 120, 233);
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: none;
+    box-shadow: 0 5px yellow;
+}
+
+a:active {
+    top: 5px;
+    position: relative;
+    box-shadow: 0 0 0 0;
+}
